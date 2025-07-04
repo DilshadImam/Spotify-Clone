@@ -1,0 +1,38 @@
+.border{
+    border: 2px solid red;
+    margin:3px;
+}
+.flex{
+    display:flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+/* Scrollbar styles for WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* Thumb color */
+    border-radius: 6px;
+    border: 2px solid #1e1e1e; /* Adds spacing around thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: 5px;
+    scrollbar-color: #444 #1e1e1e;
+  }
+  
